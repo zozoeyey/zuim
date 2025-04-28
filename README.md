@@ -29,6 +29,9 @@ In Arduino IDE, go to Sketch > Include Library > Manage Libraries, and search fo
 - Press the button to signal a question. You will see the state of your own questions on LED 2.
 - When someone else or you have active questions, LEDs 3 and 4 in the stripe will blink in purple with different frequency based on the number of total questions.
 - Observe the LED stripe: It changes color gradually to show the average temperature across all users in the meeting.
+5. File Instructions <br>
+- small_meeting_scenario is designed for simulation of smaller meetings (one-on-one or small group discussions), where the temperature of the whole meeting updates every 10 seconds, and the frequency of question pulsing is slower.
+- large_meeting_scenario is designed for simulation of larger meetings (more than 10 people or large webinars), where the temperature of the whole meeting updates every 5 seconds, and the frequency of question pulsing is faster.
 ## Credits
 Team Members: Zoey Yan, Jennifer Long, Jenna Stephenson
 
